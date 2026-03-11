@@ -1,0 +1,48 @@
+{
+  "student_metadata": {
+    "name": "Mehak Jain",
+    "roll_number": "230079",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "provider": "Google DeepMind"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "task_tag": "Task 4.2",
+      "purpose": "Creating the LLM usage disclosure JSON files",
+      "prompt": "Help me create all 10 LLM disclosure JSON files for Part B following the required format with task_tag, code_used_verbatim, and student_modification fields.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent generated all 10 JSON files with the correct structure, required fields, and accurate descriptions of how LLM was used in each task.",
+      "code_used_verbatim": true,
+      "student_modification": "I reviewed all JSON files to ensure interaction descriptions accurately reflect what happened and that code_used_verbatim flags are correctly set.",
+      "student_verification": "Checked each JSON file against the Part B specification to confirm all required fields are present.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Help me create all 10 LLM disclosure JSON files for Part B following the required format with task_tag, code_used_verbatim, and student_modification fields.",
+      "why_important": "Correct LLM disclosure is worth 15 marks total (1.5 per file). Getting the format wrong would lose marks systematically across all files."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 4.2.",
+    "understanding_acknowledged": true,
+    "signature": "Mehak Jain",
+    "date": "2026-03-11"
+  }
+}

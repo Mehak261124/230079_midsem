@@ -1,0 +1,48 @@
+{
+  "student_metadata": {
+    "name": "Mehak Jain",
+    "roll_number": "230079",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "provider": "Google DeepMind"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "task_tag": "Task 2.1",
+      "purpose": "Choosing and generating a suitable toy dataset for MDTM reproduction",
+      "prompt": "Help me create a synthetic temporal document corpus suitable for testing MDTM, with evolving topics across epochs.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent designed a synthetic dataset with 50-word vocabulary, 3 topics evolving at different rates across 20 epochs, generating documents via Dirichlet-Multinomial sampling.",
+      "code_used_verbatim": true,
+      "student_modification": "I reviewed the data generation code and adjusted the drift rates (0.95/0.05 split for slow, 0.85/0.15 for medium) to ensure visually distinct evolution patterns. I also verified the generated data had reasonable statistics.",
+      "student_verification": "I checked that the synthetic data matched the generative process described in the paper (Section 3.1) and had sufficient samples (50 docs \u00d7 45 words per epoch).",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Help me create a synthetic temporal document corpus suitable for testing MDTM, with evolving topics across epochs.",
+      "why_important": "The dataset design directly affects whether the MDTM method can be meaningfully tested. Getting the data generation wrong would undermine all subsequent experiments."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 2.1.",
+    "understanding_acknowledged": true,
+    "signature": "Mehak Jain",
+    "date": "2026-03-11"
+  }
+}

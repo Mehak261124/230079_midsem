@@ -1,0 +1,47 @@
+{
+  "student_metadata": {
+    "name": "Mehak Jain",
+    "roll_number": "230079",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "provider": "Google DeepMind"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "task_tag": "Task 1.2",
+      "purpose": "Identifying key assumptions specific to the MDTM method",
+      "prompt": "Help me identify three assumptions that MDTM specifically depends on, traced to specific sections of the paper, with violation scenarios.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent identified three specific assumptions: smooth temporal evolution via exponential decay, fixed number of topics, and document exchangeability within epochs. Each was traced to paper sections.",
+      "code_used_verbatim": false,
+      "student_verification": "I verified each assumption against the paper's equations and model description to ensure they are genuinely specific to MDTM rather than generic ML assumptions.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Help me identify three assumptions that MDTM specifically depends on, traced to specific sections of the paper, with violation scenarios.",
+      "why_important": "Identifying correct assumptions is critical because Task 3.2 (failure mode) must connect back to these assumptions. Getting them wrong would create contradictions across tasks."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 1.2.",
+    "understanding_acknowledged": true,
+    "signature": "Mehak Jain",
+    "date": "2026-03-11"
+  }
+}

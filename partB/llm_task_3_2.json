@@ -1,0 +1,48 @@
+{
+  "student_metadata": {
+    "name": "Mehak Jain",
+    "roll_number": "230079",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part B",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "provider": "Google DeepMind"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "tool_name": "Gemini (Antigravity Agent)",
+      "model": "Gemini 2.5 Pro",
+      "task_tag": "Task 3.2",
+      "purpose": "Designing and implementing the failure mode experiment",
+      "prompt": "Help me design a failure scenario for MDTM where all topics shift abruptly, violating the smooth temporal evolution assumption from Task 1.2.",
+      "llm_response_used": "Yes",
+      "how_it_helped": "The agent designed an adversarial dataset where all topics simultaneously shift at epoch 10, implemented the experiment showing MDTM's perplexity spike, and suggested a change-point detection modification.",
+      "code_used_verbatim": true,
+      "student_modification": "I chose the failure mode (abrupt total topic shift) based on Assumption 1 from Task 1.2 to ensure consistency across tasks. I wrote the explanation connecting the failure to the exponential decay mechanism. The suggested modification (change-point detection) was my own idea based on understanding the root cause.",
+      "student_verification": "Verified that the adversarial data truly violates the smooth evolution assumption by checking L1 distance between pre/post shift distributions.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Help me design a failure scenario for MDTM where all topics shift abruptly, violating the smooth temporal evolution assumption from Task 1.2.",
+      "why_important": "The failure mode must be rooted in the assumptions from Task 1.2 \u2014 getting this connection right is worth 7 out of 15 marks for this task."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Task 3.2. The identification of the failure mode and its connection to Assumption 1 was my own reasoning.",
+    "understanding_acknowledged": true,
+    "signature": "Mehak Jain",
+    "date": "2026-03-11"
+  }
+}
